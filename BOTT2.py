@@ -7,7 +7,7 @@ sleep(2)  # Wait for loading page.
 
 deneme = "yalinstartupp"
 username = driver.find_element_by_name('username').send_keys(deneme)
-password = driver.find_element_by_name('password').send_keys('i,;PpE+5=gYRa:S')
+password = driver.find_element_by_name('password').send_keys('i,;PpE+5=aaXaqgYRa:S')
 girisbutton = driver.find_element_by_xpath('//button[@type="submit"]').click()  # Log-in button
 sleep(2)
 
